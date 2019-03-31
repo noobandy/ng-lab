@@ -1,0 +1,13 @@
+[{
+    "id": 1,
+    "details": "Some Task",
+    "completed": false
+}, {
+    "id": 2,
+    "details": "Some Other Task",
+    "completed": true
+}, {
+    "id": 3,
+    "details": "Yet anothet Task",
+    "completed": false
+}]

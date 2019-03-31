@@ -1,0 +1,9 @@
+<button (click)="handleNewClick()">New</button>
+<ul>
+  <li *ngFor="let todo of todos">
+      <div>
+        <input type="checkbox" [checked]="todo.completed">
+        <p>{{todo.details}}</p>
+      </div>
+  </li>
+</ul>

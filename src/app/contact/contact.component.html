@@ -1,0 +1,8 @@
+<div>
+    <p>contact works!</p>
+    <button (click)="clearFilters()">Clear Filters</button>
+    <h4>Restaurants</h4>
+    <h6>{{selectedRestaurants.length}} Restaurant(s) selected</h6>
+    <app-restaurant-table [restaurants]="restaurants" [restaurantFilter]="restaurantFilter" (selectionChanged)="handleRestauratSelectionChanged($event)"></app-restaurant-table>
+</div>
+  
